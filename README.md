@@ -1,6 +1,9 @@
 # Idling Hours on Steam.
 
 # Installation
+
+> npm install steam@v0.6.8
+
 Configure Idle.js
 
 #Get all AppID's 
