@@ -4,6 +4,7 @@
 Configure Idle.js
 
 #Get all AppID's 
+http://steamcommunity.com/id/{YOUR_ID}/games/?tab=all
 ```javascript
 var allgames = "";
 for (var index in rgGames) {
