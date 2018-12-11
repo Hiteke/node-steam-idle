@@ -16,9 +16,9 @@ else
 {
     console.log('[STEAM] logging in without sentry');
     bot.logOn({
-      accountName: '',
-      password: '',
-      authCode: ''
+      accountName: 'process.env.login',
+      password: 'process.env.pass',
+      authCode: 'process.env.code'
     });
 }
 function randomString(len, an){
@@ -40,7 +40,7 @@ bot.on('loggedOn', function() {
     //730=csgo
     //570=dota2
 	
-	bot.gamesPlayed([440, 550, 730, 570]);
+	bot.gamesPlayed([730]);
 });
  
 bot.on('sentry', function(sentryHash)
